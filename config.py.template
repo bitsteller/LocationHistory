@@ -1,0 +1,11 @@
+#Database credentials and general settings
+DATABASE = "" #enter name of the database here
+USER = "postgres"
+PORT = 5432
+PASSWORD = "" #write password here
+# SCHEMA = "traffic_flow" #optional: specify a schema to save tables in
+
+
+NAMES = {"user_list": "user_list",
+		 "trip": "trip_google",
+		 "trip_target": "trip_google_merged"} #table names
